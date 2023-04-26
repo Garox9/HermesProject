@@ -11,7 +11,7 @@ import java.util.List;
 import java.util.stream.Collectors;
 @Service
 public class FileService {
-    private final String fileName = "data.csv";
+    private final String fileName = "hermesTasks.csv";
     public List<Task> readAllFiles() throws IOException {
         return Files.readAllLines(Paths.get(fileName))
                 .stream()

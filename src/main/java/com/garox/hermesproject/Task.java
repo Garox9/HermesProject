@@ -1,22 +1,22 @@
 package com.garox.hermesproject;
 
 public class Task {
-    private String titel;
+    private String title;
     private String description;
     private int priority;
 
     public Task(String titel, String description, int priority) {
-        this.titel = titel;
+        this.title = titel;
         this.description = description;
         this.priority = priority;
     }
 
-    public String getTitel() {
-        return titel;
+    public String getTitle() {
+        return title;
     }
 
-    public void setTitel(String titel) {
-        this.titel = titel;
+    public void setTitle(String title) {
+        this.title = title;
     }
 
     public String getDescription() {
@@ -37,6 +37,6 @@ public class Task {
 
     @Override
     public String toString() {
-        return titel + " pryjotytet = " + priority;
+        return title + " pryjotytet = " + priority;
     }
 }
